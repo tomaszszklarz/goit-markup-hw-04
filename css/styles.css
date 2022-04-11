@@ -346,7 +346,46 @@ figure {
 }
 .contact {
     margin-top: 9px;
+}
+.joint {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.down {
+    display: flex;
+}
+.address-socjal-icons {
+    display: flex;
+    padding-right: 10px;  
+}
+.address-list_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, 1);
+}
+.address-list_link:hover, 
+.address-list_link:focus {
+    background-color: var(--secend-color);
+}
+.address-icons {
+    width: 20px;
+    height: 20px;
     
+}
+.address-socjal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.address-socjal-list {
+    display: flex;
+    margin-top: 20px;
 }
 /*-------End footer--------*/
 /*------main Portfolio------*/
@@ -409,6 +448,10 @@ figure {
 }
 .fotos-list-item {
     margin-top: 30px;
+}
+.fotos-list-item:hover {
+   border: 1px solid var(--secend-color);
+   cursor: pointer;
 }
 
 .fotos-caption {
