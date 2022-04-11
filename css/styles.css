@@ -130,7 +130,7 @@ figure {
     background-image:linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),  
-    url(/images/background-image.jpg);
+    url(./images/background-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 600px;
