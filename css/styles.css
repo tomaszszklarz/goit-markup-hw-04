@@ -95,8 +95,30 @@ figure {
     line-height: 1.142em; 
 }
 .link-mail {
+    display: flex;
     margin-left: auto;
     margin-right: 50px;
+}
+.mail-icons {
+    margin-right: 10px;
+    width: 12px;
+    height: 16px;
+}
+.link-mail:hover,
+.link-mail:focus {
+    fill: var(--secend-color);
+}
+.phone-icons {
+    margin-right: 10px;
+    width: 10px;
+    height: 16px;
+}
+.link-phone {
+    display: flex;
+}
+.link-phone:hover,
+.link-phone:focus {
+    fill: var(--secend-color);
 }
 .navi-list-link:hover, .navi-list-link:focus, .navi-list-link:active,
 .link-mail:hover, .link-mail:focus, .link-mail:active,
@@ -330,7 +352,8 @@ figure {
 .client-list-item:hover,
 .client-list-item:focus {
     fill: var(--secend-color);
-    border: 1px solid var(--secend-color)
+    border: 1px solid var(--secend-color);
+    cursor: pointer;
 }
 /*-------End Body-------*/
 /*--------footer---------*/
